@@ -4,7 +4,6 @@ body, html {
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
     height: 100%;
-
 }
 
 /* body, html {
@@ -120,4 +119,48 @@ li a:hover {
     color: #555;
 }
 
+.shadow-container {
+    display: flex;
+    /* flex-direction: row; */
+    /* justify-content: center; */
+    justify-content: space-around;
+    align-items: center;
+    /* margin: 0 30px; */
+    margin: 0 25px;
 
+}
+
+.recipie {
+    width: 50%;
+    padding: 25px;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1), 0 5px 6px rgba(0, 0, 0, 0.19);
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.recipie img {
+    width: 100%;
+}
+
+.detail-container {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.shadow-detail {
+    margin: 60px 45px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4), 0 6px 8px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.footer {
+    padding: 10px 30px 50px 30px;
+    background-color: #222;
+    text-align: center;
+    color: #fffa;
+    width: 100%;
+    margin-top: 10px;
+}
